@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config
+data:
+  environment: "#{Octopus.Environment.Name}"
+  deployed_at: "#{Octopus.Deployment.Created}"
