@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config
+data:
+  environment: "Dev"
+  deployed_at: "Wednesday, 17 June 2026 12:07:04 PM"
